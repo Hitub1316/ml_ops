@@ -38,7 +38,7 @@ jobs:
         
       - name: Build Docker image
         run: |
-          docker build -t ml-app:latest .
+          docker build -t Hitub1316/ml-app:latest .
           
       - name: "Deployment message (Simulation)"
-        run: echo "Image built successfully. In a real scenario, this would push to a registry and deploy to a testing environment."
+        run: echo "Image 'Hitub1316/ml-app:latest' built successfully."
